@@ -1,0 +1,263 @@
+.sds-social-button{
+    display:inline-block;
+    text-decoration:none;
+    outline:none;
+    color: transparent;
+    text-align: center;
+    padding:8px;
+    margin: 0px 3px;
+    margin-bottom: 5px;
+}
+
+.sds-social-button i{
+    vertical-align: top;
+}
+
+.sds-social-button:hover{
+    background:#fff;
+    -webkit-box-shadow: 0px 4px 5px 0px rgba(0,0,0,0.1) !important;
+    -moz-box-shadow: 0px 4px 5px 0px rgba(0,0,0,0.1) !important;
+    box-shadow: 0px 4px 5px 0px rgba(0,0,0,0.1) !important;
+}
+
+.sds-style-circle .sds-social-button{
+    border-radius:100%;
+    overflow:hidden;
+}
+
+.sds-style-icon .sds-social-button, .sds-style-icon .sds-social-button:hover{
+    background-color: transparent !important;
+    -webkit-box-shadow: none !important;
+    -moz-box-shadow: none !important;
+    box-shadow: none !important;
+}
+
+.sds-style-r-box .sds-social-button{
+    border-radius:5px;
+}
+
+.sds-align-center{
+    text-align: center;
+}
+.sds-align-left{
+    text-align: left;
+}
+.sds-align-right{
+    text-align: right;
+}
+
+.sds-network-name{
+    font-family: sans-serif;
+    text-decoration:none;
+    text-transform:uppercase;
+    font-size:80%;
+    font-weight:bold;
+    vertical-align: middle;
+    display:inline-block;
+    margin-left:5px;
+    padding:0px 3px;
+    opacity:0.7;
+}
+
+.sds-api-panel .button{
+    min-width: 270px;
+}
+
+.wp-admin .sds-network-name{
+    display:none;
+}
+
+.sds-red{
+    color:red !important;
+}
+
+.sds-green{
+    color:rgb(0, 167, 0) !important;
+}
+
+.sds-api-panel{
+    margin-top:20px;
+}
+
+.sds-api-panel .button{
+    margin-right:10px;
+}
+
+.sds-generate-info, .sds-delete-info{
+    margin-left:10px;
+    padding-left: 10px;
+    display:inline-block;
+    position:relative;
+    border-left: 1px dotted #aaa;
+}
+
+.sds-action-info{
+    max-height: 250px;
+    overflow-y: auto;
+    padding-left: 20px;
+    opacity: 0.8;
+    line-height: 1;
+    font-family: monospace;
+    border-left: 1px dotted;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+.sds-menu-item{
+    margin:0px 5px;
+    text-decoration:none;
+}
+
+#skaledigital-sharebar-sticky{
+    display:block;
+    position: fixed;
+    bottom:0px;
+    left:0px;
+    width:100%;
+    text-align:center;
+    z-index:1000;
+}
+
+#skaledigital-sharebar-sticky .sds-share-icons-bar{
+    display: inline-block;
+    padding: 6px;
+    /* border-radius: 5px 5px 0px 0px; */
+    overflow: hidden;
+    vertical-align: bottom;
+    z-index: 1;
+    position: relative;
+    width: 100%;
+    text-align: center;
+}
+
+#skaledigital-sharebar-sticky .sds-share-icons-bar a{
+    position: relative;
+    z-index:1;
+}
+
+.sticky-bar-bg{
+    position:absolute;
+    width:100%;
+    height:100%;
+    opacity:0.7;
+    top:0px;
+    left:0px;
+}
+
+/* ------------------------------------------------------------------       ADMIN AREA          */
+
+.social-icons-toggle .sds-social-button{
+    border: 2px solid rgba(187, 187, 187, 0.12);
+    background: #fff;
+    padding: 5px;
+    width: 20px;
+    text-align: center;
+    -webkit-box-shadow: 0px 4px 5px 0px rgba(0,0,0,0.09);
+    -moz-box-shadow: 0px 4px 5px 0px rgba(0,0,0,0.09);
+    box-shadow: 0px 4px 5px 0px rgba(0,0,0,0.09);
+    opacity:0.7;
+}
+
+.social-icons-toggle .enabled-social-button{
+    border-color: #00a700;
+    border-width: 2px;
+    opacity:1;
+}
+
+.option-share-buttons-list{
+    display:none;
+}
+
+.social-icons-toggle{
+    padding:10px;
+    border:1px solid #fefefe;
+    display:inline-block;
+
+    -webkit-box-shadow: inset 0px 2px 10px 0px rgba(0,0,0,0.29);
+    -moz-box-shadow: inset 0px 2px 10px 0px rgba(0,0,0,0.29);
+    box-shadow: inset 0px 2px 10px 0px rgba(0,0,0,0.29);
+}
+
+.social-icons-toggle *{
+    font-size:20px !important;
+    line-height:20px !important;
+    min-width:20px !important;
+}
+
+.sds-input-box{
+    line-height:30px;
+}
+
+.sds-input-box small{
+    display:block;
+}
+
+.sds-input-box label{
+    min-width:190px;
+    display:inline-block;
+    vertical-align: top;
+    margin-right:10px;
+}
+
+.sds-input-box input[type='text'], .sds-input-box select{
+    min-width: 220px;
+}
+
+.sds-input-box .wp-picker-container{
+    vertical-align: middle;
+    line-height: 1;
+}
+
+.sds-info, small{
+    display:block;
+    line-height: 1;
+    margin-bottom: 20px;
+}
+
+.sds-options-area {
+    background: #fff;
+    padding: 20px;
+    box-shadow: 0 1px 7px 0 rgba(0,0,0,.1);
+}
+.sds-options-area hr{
+    margin: 20px 0px;
+}
+
+.sds-shortcode-example{
+    padding: 5px 20px;
+    background: rgba(238, 238, 238, 0.39);
+    border: 1px dotted rgba(35, 40, 45, 0.17);
+    margin: 10px 0px;
+    display: inline-block;
+}
+
+.option-sds_api_token-box #sds_api_token{
+    padding: 5px 10px;
+    border-radius: 5px;
+    border: 2px solid rgb(0, 167, 0);
+    background-color: rgba(238, 238, 204, 0.17);
+    width: 350px;
+    -moz-box-shadow: inset 0px 2px 10px 0px rgba(0,0,0,0.29);
+    box-shadow: inset 0px 2px 10px 0px rgba(0,0,0,0.10);
+    overflow: hidden;
+}
+
+.option-sds_api_token-box label{
+    font-size:20px;
+    font-weight: bold;
+    color: rgb(0, 167, 0);
+}
+
+.sds-test-api-token{
+    display: inline-block;
+    margin-left: 10px;
+    vertical-align: top;
+    line-height: 30px;
+    cursor:pointer;
+}
+
+.sds-test-api-token .fa{
+    font-size: 20px;
+    line-height: 30px;
+    vertical-align: top;
+}
